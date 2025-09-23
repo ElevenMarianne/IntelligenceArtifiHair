@@ -1,0 +1,74 @@
+{
+  "result": {
+    "points": [
+      {
+        "id": "01995209-0ba0-7df0-b247-517cc8354805",
+        "payload": {
+          "text": "nom: Revolvhair\nlat: 48.869343\nlng: 2.365217\nnum: 12\nvoie: RUE LEON JOUHAUX\nville: PARIS\ncodepostal: 75010\nmarkerinnerhtml: <p><b>Revolvhair</b></p><p><a class='button' target='_blank' href='https://www.google.com/maps/?q=Revolvhair 12+RUE+LEON+JOUHAUX+PARIS'>Voir la devanture via Google Maps</a></p>\nliinnerhtml: <b>Revolvhair</b><span>, PARIS (75010)</span>\naddresse: 12 RUE LEON JOUHAUX PARIS",
+          "source_id": 4,
+          "chunk_index": 1,
+          "nom": "Revolvhair",
+          "ville": "PARIS",
+          "codepostal": "75010",
+          "lat": 48.869343,
+          "lng": 2.365217
+        }
+      },
+      {
+        "id": "01995214-9cee-749f-9efa-2a685eeb6b0a",
+        "payload": {
+          "text": "nom: Creat'tifs\nlat: 48.883066\nlng: 2.367798\nnum: 264\nvoie: PARIS\nville: PARIS 10\ncodepostal: 75010\nmarkerinnerhtml: <p><b>Creat'tifs</b></p><p><a class='button' target='_blank' href='https://www.google.com/maps/?q=Creat%27tifs 264+PARIS+PARIS+10'>Voir la devanture via Google Maps</a></p>\nliinnerhtml: <b>Creat'tifs</b><span>, PARIS 10 (75010)</span>\naddresse: 264 PARIS PARIS 10",
+          "source_id": 1444,
+          "chunk_index": 1,
+          "nom": "Creat'tifs",
+          "ville": "PARIS 10",
+          "codepostal": "75010",
+          "lat": 48.883066,
+          "lng": 2.367798
+        }
+      },
+      {
+        "id": "0199526a-0885-73fb-9479-cd82ac68a967",
+        "payload": {
+          "text": "nom: Revolvhair\nlat: 48.869343\nlng: 2.365217\nnum: 12\nvoie: RUE LEON JOUHAUX\nville: PARIS\ncodepostal: 75010\nmarkerinnerhtml: <p><b>Revolvhair</b></p><p><a class='button' target='_blank' href='https://www.google.com/maps/?q=Revolvhair 12+RUE+LEON+JOUHAUX+PARIS'>Voir la devanture via Google Maps</a></p>\nliinnerhtml: <b>Revolvhair</b><span>, PARIS (75010)</span>\naddresse: 12 RUE LEON JOUHAUX PARIS",
+          "source_id": 4,
+          "chunk_index": 1,
+          "nom": "Revolvhair",
+          "ville": "PARIS",
+          "codepostal": "75010",
+          "lat": 48.869343,
+          "lng": 2.365217
+        }
+      },
+      {
+        "id": "01995278-d6b1-7b6f-92df-03f5f71d56cc",
+        "payload": {
+          "text": "nom: Creat'tifs\nlat: 48.883066\nlng: 2.367798\nnum: 264\nvoie: PARIS\nville: PARIS 10\ncodepostal: 75010\nmarkerinnerhtml: <p><b>Creat'tifs</b></p><p><a class='button' target='_blank' href='https://www.google.com/maps/?q=Creat%27tifs 264+PARIS+PARIS+10'>Voir la devanture via Google Maps</a></p>\nliinnerhtml: <b>Creat'tifs</b><span>, PARIS 10 (75010)</span>\naddresse: 264 PARIS PARIS 10",
+          "source_id": 1444,
+          "chunk_index": 1,
+          "nom": "Creat'tifs",
+          "ville": "PARIS 10",
+          "codepostal": "75010",
+          "lat": 48.883066,
+          "lng": 2.367798
+        }
+      },
+      {
+        "id": "019952b1-9024-7e38-b3ec-8b1618664c3a",
+        "payload": {
+          "text": "nom: Revolvhair\nlat: 48.869343\nlng: 2.365217\nnum: 12\nvoie: RUE LEON JOUHAUX\nville: PARIS\ncodepostal: 75010\nmarkerinnerhtml: <p><b>Revolvhair</b></p><p><a class='button' target='_blank' href='https://www.google.com/maps/?q=Revolvhair 12+RUE+LEON+JOUHAUX+PARIS'>Voir la devanture via Google Maps</a></p>\nliinnerhtml: <b>Revolvhair</b><span>, PARIS (75010)</span>\naddresse: 12 RUE LEON JOUHAUX PARIS",
+          "source_id": 4,
+          "chunk_index": 1,
+          "nom": "Revolvhair",
+          "ville": "PARIS",
+          "codepostal": "75010",
+          "lat": 48.869343,
+          "lng": 2.365217
+        }
+      }
+    ],
+    "next_page_offset": "019952c1-843a-7cbc-86d6-b470836b8ac8"
+  },
+  "status": "ok",
+  "time": 0.019318493
+}

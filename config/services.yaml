@@ -1,0 +1,31 @@
+parameters:
+  ollama_url: '%env(resolve:OLLAMA_URL)%'
+  qdrant_url: '%env(resolve:QDRANT_URL)%'
+  embed_model: '%env(resolve:EMBED_MODEL)%'
+  ollama_model: '%env(resolve:OPENAI_MODEL)%'
+
+services:
+  _defaults:
+    autowire: true
+    autoconfigure: true
+
+  App\:
+    resource: '../src/'
+    exclude:
+      - '../src/DependencyInjection/'
+      - '../src/Entity/'
+      - '../src/Kernel.php'
+
+  App\Application\Handler\GetRequestAIHandler:
+    arguments:
+      $ollamaModel: '%ollama_model%'
+
+  App\Infrastructure\Command\RagIngestJsonCommand:
+    arguments:
+      $ollamaUrl: '%ollama_url%'
+      $embedModel: '%embed_model%'
+
+  # Le client Ollama (Bridge)
+  Symfony\AI\Platform\Bridge\Ollama\OllamaClient:
+    arguments:
+      $hostUrl: '%env(string:OPENAI_BASE_URI)%'

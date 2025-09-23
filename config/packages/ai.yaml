@@ -1,0 +1,13 @@
+ai:
+  platform:
+    ollama:
+      host_url: '%env(string:OLLAMA_HOST_URL)%'
+
+  store:
+    qdrant:
+      hair_salon_store:
+        endpoint: '%env(QDRANT_URL)%'
+        api_key: '%env(default::QDRANT_API_KEY)%'
+        collection_name: 'hairsalons'
+        dimensions: 768
+        distance: 'cosine'
